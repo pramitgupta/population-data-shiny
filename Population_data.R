@@ -1,12 +1,12 @@
 library(shiny)
 
 # Load the data
-df <- read.csv("demo.csv")
+df <- read.csv("data/demo.csv")
 
 ui <- fluidPage(
 
     useShinyjs(),  # Include shinyjs for showing/hiding messages
-    titlePanel(title=div(img(src="logo.png", align='right', height = "100px"), "Population Data")),
+    titlePanel(title=div(img(src="www/logo.png", align='right', height = "100px"), "Population Data")),
   
   sidebarLayout(
     sidebarPanel(
