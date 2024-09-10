@@ -1,3 +1,4 @@
+if(!require("shiny")) {install.packages("shiny")}
 library(shiny)
 
 # Load the data
