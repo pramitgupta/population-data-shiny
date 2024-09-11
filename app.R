@@ -1,5 +1,8 @@
 if(!require("shiny")) {install.packages("shiny")}
+if(!require("shinyjs")) {install.packages("shinyjs")}
+
 library(shiny)
+library(shinyjs)
 
 # Load the data
 df <- read.csv("data/demo.csv")
